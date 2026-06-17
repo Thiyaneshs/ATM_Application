@@ -7,7 +7,7 @@ const {
   checkBalance,
   deposit,
   withdraw,
-} = require("../controllers/atmController");
+} = require("../controllers/atmcontroller");
 router.post("/signup", signup);
 router.post("/login", login);
 

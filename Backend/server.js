@@ -24,7 +24,7 @@ app.use((err, req, res, next) => {
     message: err.message,
   });
 });
-app.use("/api/atm", require("./routes/atmRoutes"));
+app.use("/api/atm", require("./routes/atmroutes"));
 
 // Direct connection to MongoDB Atlas enabled via MONGO_URI in .env
 
